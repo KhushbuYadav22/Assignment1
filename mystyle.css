@@ -1,0 +1,133 @@
+<style type="text/css">
+	
+		html,body{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+		body{
+			font-family: sans-serif;
+		}
+		nav{
+			width: 100%;
+			height: 50px;
+			background: #ff9999;
+			border-top: 1px solid rgba(255,255,255,.2);
+			border-bottom: 1px solid rgba(255,255,255,.2);
+			position: fixed;
+			top: 0;
+		}
+		nav ul{
+			display: flex;
+			margin: 0;
+			padding: 0 100px;
+			float: right;
+
+		}
+
+		nav ul li{
+			list-style: none;
+		}
+		nav ul li a{
+			display: block;
+			color: #fff;
+			padding: 0 20px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: bold;
+			line-height: 50px;
+		}
+		nav ul li a:hover {
+            background-color:#FFFAF0;
+             color: black;
+         }
+         
+         .box
+         {
+         	position: relative;
+         	z-index: -1;
+         } 
+      
+		#welcome-section
+		{
+			height: 60vh;
+			background-color:#000;
+			width: 100%;
+
+		
+		}
+		#welcome-section h1{
+			color: blue;	
+		    position: relative;;
+  			top: 60%;
+  			left: 83%;
+  			transform: translate(-50%,-50%);		
+		}
+
+		#welcome-section span{
+			color: orange;	
+			position: relative;
+  			top: 65%;
+  			left: 45%;
+  			transform: translate(-51%,-51%);		
+		}
+
+		#contact
+		{
+
+       	background-color: black;
+        color: white;
+        padding: 350px;
+        height: 100px;
+        text-align: center;
+
+       }  
+
+       #contact span{
+          	color: white;	
+  			top: 65%;
+  			left: 50%;
+  			transform: translate(-50%,-50%);
+       } 
+      #contact a{
+      	margin-top: 2px;
+      	margin-right: 5px;
+      	margin-bottom: 10px;
+      }
+       #contact i
+       {
+       	 margin-right: 10px;
+       }
+
+
+       .media {
+       	position: absolute;
+       	top: 40%;
+       	left: 50%;
+       	transform: translate(-53%,-50%);
+       }
+
+    .footer {
+   		position: fixed;
+   		left: 0;
+   		bottom: 0;
+   		width: 100%;
+   		background-color:#ff9999;
+   		color: white;
+   		text-align: center;
+   		font-weight: bold;
+		}
+	.container{
+
+	}	
+
+
+	@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+		
+	</style>
+
